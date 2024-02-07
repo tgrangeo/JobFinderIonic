@@ -1,0 +1,32 @@
+ion-header {
+  ion-toolbar {
+    --padding-start: 1.5vh;
+    --padding-end: 1.5vh;
+    ion-title {
+      img {
+        height: 6vh;
+        width: 6vh;
+      }
+    }
+    ion-buttons {
+      ion-thumbnail {
+        background-color: #cfcfcf;
+        --border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ion-icon {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+ion-row.tagline{
+    padding-left: 1.5vh;
+    ion-text{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
